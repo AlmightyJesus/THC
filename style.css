@@ -147,6 +147,21 @@ body {
 
     top: 50vw;
   }
+  .layer-2 img,
+  .layer-4 img{
+    margin-top: 48px;
+    height: 650px;
+    width: 300px;
+    object-fit: contain;
+  }
+  .layer-2 img
+  {
+    margin-left: -12px;
+  }
+  .layer-4 img
+  {
+    margin-right: -12px;
+  }
 }
 @media screen and (max-width: 550px) {
   .layer-2,
@@ -318,6 +333,7 @@ figcaption a {
   /* height: 700px; */
   position: relative;
   opacity: 1;
+  
 }
 
 img {
@@ -347,7 +363,7 @@ img {
 @media screen and (max-width: 750px) {
   .wrapper {
     margin-top: 1vw;
-    margin-bottom: 10vw;
+    margin-bottom: -8vw;
     flex-direction: column;
     justify-content: center;
     gap: 20vw;
@@ -355,13 +371,25 @@ img {
     margin-top: 8rem; */
   }
   .image {
-    width: 480px;
+    width: 100%;
+    object-fit: cover;
+    
   }
   img {
     height: 45vw;
     background-size: cover;
   }
 }
+
+@media screen and (max-width: 550px){
+    .wrapper{
+      margin-bottom: -40vw;
+    }
+}
+
+/* @media screen and (max-width: 750px){
+
+} */
 
 /* .content:hover {
   opacity: 1;
@@ -413,8 +441,10 @@ img {
    
   }
   .slide_group{
-    top:60px;
+    top:40px;
   }
+  
+  
   
 }
 
@@ -1222,7 +1252,11 @@ hr {
 @media only screen and (max-width: 557px){
   .directional_nav {
     display: flex;
+    margin-top: 2vw;
     
+  }
+  .slide_buttons{
+    margin-top: -22vw;
   }
 } 
 /* @media only screen and (max-width: 1057px){
