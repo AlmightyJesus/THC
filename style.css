@@ -76,7 +76,7 @@ body {
 
 @media screen and (max-width: 750px){
   .layer-1{
-    transform: translateZ(0) scale(0.92) ;
+    transform: translateZ(0) scale(1) ;
 
   }
 }
