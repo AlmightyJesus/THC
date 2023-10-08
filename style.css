@@ -160,7 +160,8 @@ body {
   }
   .layer-4 img
   {
-    margin-right: -22px;
+    margin-right: -14px;
+    width: 260px;
   }
 }
 @media screen and (max-width: 550px) {
