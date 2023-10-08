@@ -1,11 +1,26 @@
+
+
+
+
 document.addEventListener("mousemove", (e) => {
   Object.assign(document.documentElement, {
     style: `
-		--move-x: ${(e.clientX - window.innerWidth / 2) * -0.002}deg;
+		--move-x: ${(e.clientX - window.innerWidth / 2) * -0.004}deg;
 		--move-y: ${(e.clientY - window.innerHeight / 2) * 0.01}deg;
 		`,
   });
 });
+
+// const jar = document.querySelector(".layer-2");
+
+// jar.addEventListener("mousemove", (e) => {
+//   Object.assign(jar.documentElement, {
+//     style: `
+// 		--move-x: ${(e.clientX - window.innerWidth / 2) * -0.000}deg;
+// 		--move-y: ${(e.clientY - window.innerHeight / 2) * 0.01}deg;
+// 		`,
+//   });
+// });
 
 // const parallax_el = document.querySelectorAll('.parallax')
 

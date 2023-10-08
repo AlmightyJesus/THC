@@ -71,6 +71,7 @@ body {
 .layer-1 {
   transform: translateZ(0) scale(1.08) ;
   
+  
 }
 
 @media screen and (max-width: 750px){
@@ -89,7 +90,7 @@ body {
 .layer-2 img {
   object-fit: contain;
   width: 45vw;
-  height: 700px;
+  height: 620px;
   float: left;
   bottom: 0;
 
@@ -118,7 +119,7 @@ body {
   object-fit: contain;
   float: right;
   width: 45vw;
-  height: 700px;
+  height: 620px;
   z-index: 1;
   /* padding:5px; */
 
