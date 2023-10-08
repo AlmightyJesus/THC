@@ -90,8 +90,13 @@
     display: none;
     transition: 1s ease;
   }
+
+  .fixed-nav-bar  .white-bar{
+    display: none;
+  }
   .fixed-nav-bar.scrolled  .white-bar {
    
+    display: block;
     background-color: #fff;
   }
 
