@@ -1084,6 +1084,9 @@ hr {
   
 }
 
+
+
+
 .previous_btn {
   top: 40%;
   left: -20%;
@@ -1137,4 +1140,15 @@ hr {
 
 .next_btn {
   color: #fff;
+}
+
+@media only screen and (max-width: 1867px){
+  .directional_nav {
+    display: none;
+  }
+}
+@media only screen and (max-width: 757px){
+  .directional_nav {
+    display: flex;
+  }
 }
