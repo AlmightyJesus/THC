@@ -151,16 +151,16 @@ body {
   .layer-4 img{
     margin-top: 48px;
     height: 650px;
-    width: 300px;
+    width: 250px;
     object-fit: contain;
   }
   .layer-2 img
   {
-    margin-left: -12px;
+    margin-left: -22px;
   }
   .layer-4 img
   {
-    margin-right: -12px;
+    margin-right: -22px;
   }
 }
 @media screen and (max-width: 550px) {
@@ -362,7 +362,7 @@ img {
 
 @media screen and (max-width: 750px) {
   .wrapper {
-    margin-top: 1vw;
+    margin-top: -28vw;
     margin-bottom: -8vw;
     flex-direction: column;
     justify-content: center;
@@ -542,7 +542,7 @@ img {
   .text__img button{
     margin-top: 3rem;
     margin-bottom: 2rem;
-    margin-left: 7.5rem;
+    margin-left: 4.5rem;
     transition: 1s;
   }
   .text__img button:hover{
