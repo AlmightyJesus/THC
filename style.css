@@ -319,11 +319,12 @@ figcaption a {
     object-fit: cover;
     
   }
-  /* .wrapper__one img{
+  .wrapper__one img{
    
-    height: 52.7vw;
-    width: 52.7vw;
-  } */
+    height: 105%;
+    width: 110%;
+    margin-left: -10px;
+  }
   figcaption {
     font-size: 4vw;
   }
