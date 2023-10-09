@@ -1,5 +1,9 @@
 
-
+window.onload = function() {
+  // All resources (including images) have finished loading
+  document.querySelector('.loading-screen').style.display = 'none';
+  document.querySelector('.main-content').style.display = 'block'; // Display main content
+};
 
 
 document.addEventListener("mousemove", (e) => {
