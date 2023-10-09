@@ -199,6 +199,16 @@ body {
   line-height: 1.35em;
   z-index: 4;
 }
+#none{
+  display: none;
+}
+
+@media screen and (max-width: 750px){
+  #none{
+    display: block;
+  }
+}
+
 
 .hero__content span {
   font-size: calc(var(--index) * 2);
@@ -323,7 +333,7 @@ figcaption a {
    
     height: 105%;
     width: 110%;
-    margin-left: -10px;
+    margin-left: -8px;
   }
   figcaption {
     font-size: 4vw;
