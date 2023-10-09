@@ -107,6 +107,16 @@ body {
   justify-content: center;
   z-index: 4;
 }
+
+@media screen and (max-width: 755px){
+  .layer-2 img,
+  .layer-4 img{
+    
+    height: 650px;
+    width: 450px;
+    
+  }
+}
 .layer-4 {
   transform: translateZ(190px);
   top: 280px;
@@ -138,7 +148,7 @@ body {
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 751px) {
   .layer-2,
   .layer-4 {
     transform: scale(1.4);
@@ -304,7 +314,7 @@ figcaption a {
    
   }
   .wrapper__one {
-    height: 37vw;
+    height: 33vw;
     width: 42.7vw;
     object-fit: cover;
     
@@ -361,9 +371,12 @@ img {
   
 }
 
+
+
+
 @media screen and (max-width: 750px) {
   .wrapper {
-    margin-top: -28vw;
+    margin-top: -18vw;
     margin-bottom: -8vw;
     flex-direction: column;
     justify-content: center;
@@ -1019,6 +1032,7 @@ hr {
   max-height: 500px;
   min-width: 900px;
   transition: max-height 0.25s ease-in;
+ 
 }
 
 @media screen and (max-width: 750px) {
@@ -1041,6 +1055,7 @@ hr {
   max-width: 420px;
   /* contrast:(0.5); */
   z-index: 2;
+  margin-left: 5vw;
 }
 .dropdown-content a:hover img {
   opacity: 1;
